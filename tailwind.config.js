@@ -7,7 +7,7 @@ module.exports = {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl: '1440px'
+      xl: '1320px'
     },
     extend: {
       colors: {
@@ -18,7 +18,8 @@ module.exports = {
       fontFamily: {
         'manrope': ['Manrope', 'sans-serif'],
         'syne': ['Syne', 'sans-serif']
-      }
+      },
+
     },
   },
   plugins: [],

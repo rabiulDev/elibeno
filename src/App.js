@@ -1,8 +1,9 @@
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div className="text-lg font-semibold font-manrope text-pink">
-      Hello Elibone
+    <div className="">
+      <Home />
     </div>
   );
 }
