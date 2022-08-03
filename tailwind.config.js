@@ -18,7 +18,8 @@ module.exports = {
       fontFamily: {
         'manrope': ['Manrope', 'sans-serif'],
         'syne': ['Syne', 'sans-serif'],
-        'montserrat': ['Montserrat', 'sans-serif']
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'redHatDisplay': ['Red Hat Display', 'sans-serif']
       },
       backgroundImage: {
         'bgHero': "url('/src/assets/background/herobg.png')"

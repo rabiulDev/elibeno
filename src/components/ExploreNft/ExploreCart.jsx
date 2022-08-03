@@ -1,10 +1,13 @@
-import React from 'react'
+import { BsThreeDotsVertical } from 'react-icons/bs'
 import ethIcon from '../../assets/icons/eth (2).png'
 const ExploreCart = ({ item }) => {
     return (
         <div className='p-6 bg-lightBlue rounded-lg '>
-            <div className=' rounded-lg'>
+            <div className='relative rounded-lg'>
                 <img className='w-full h-full rounded-lg' src={item.img} alt="" />
+                <div className='bg-darkBlue w-[29px] h-[29px] rounded flex items-center justify-center absolute top-5 right-5'>
+                    <BsThreeDotsVertical className='text-white text-xl' />
+                </div>
             </div>
 
             <div className='font-manrope text-white space-y-4'>

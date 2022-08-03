@@ -5,14 +5,14 @@ import ExploreCart from './ExploreCart'
 
 const ExploreNft = () => {
     return (
-        <div className='mt-[120px]'>
+        <div className='py-[120px]'>
 
             <ExploreNftHeader title={'Explore NFTs'} btnTxt={'Explore More'} />
 
 
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-16'>
                 {
-                    explore.slice(1, 8).map(item => <ExploreCart key={item.id} item={item} />)
+                    explore.slice(0, 8).map(item => <ExploreCart key={item.id} item={item} />)
                 }
             </div>
         </div>
