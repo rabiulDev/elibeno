@@ -17,9 +17,13 @@ module.exports = {
       },
       fontFamily: {
         'manrope': ['Manrope', 'sans-serif'],
-        'syne': ['Syne', 'sans-serif']
+        'syne': ['Syne', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif']
       },
+      backgroundImage: {
+        'bgHero': "url('/src/assets/background/herobg.png')"
 
+      }
     },
   },
   plugins: [],
