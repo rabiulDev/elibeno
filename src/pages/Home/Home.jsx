@@ -3,6 +3,7 @@ import ExploreNft2 from "../../components/ExploreNft2/ExploreNft2"
 import Hero from "../../components/Hero/Hero"
 import Navbar from "../../components/Navbar/Navbar"
 import Platform from "../../components/Platform/Platform"
+import TopSeller from "../../components/TopSeller/TopSeller"
 
 const Home = () => {
     return (
@@ -26,6 +27,9 @@ const Home = () => {
             {/* PLATFORM 2 SECTION */}
             <section className="container mx-auto px-4 lg:px-16" >
                 <ExploreNft2 />
+
+                {/* TOP SELLER SECTION */}
+                <TopSeller />
             </section>
         </section>
     )

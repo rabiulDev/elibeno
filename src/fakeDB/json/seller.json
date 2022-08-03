@@ -13,7 +13,7 @@
   },
   {
     "id": 3,
-    "img": "https://i.ibb.co/WzMcKRw/seller3",
+    "img": "https://i.ibb.co/WzMcKRw/seller3.png",
     "name": "Marry Smith",
     "item": 30
   },
@@ -49,13 +49,13 @@
   },
   {
     "id": 9,
-    "img": "https://i.ibb.co/QFkv8TJ/seller10",
+    "img": "https://i.ibb.co/QFkv8TJ/seller10.png",
     "name": "Jimmy Deo",
     "item": 525
   },
   {
     "id": 10,
-    "img": "https://i.ibb.co/QFkv8TJ/seller10",
+    "img": "https://i.ibb.co/QFkv8TJ/seller10.png",
     "name": "Marry Smith",
     "item": 24
   },
@@ -71,10 +71,9 @@
     "name": "Alex Jones",
     "item": 85
   },
-
   {
     "id": 13,
-    "img": "https://i.ibb.co/WV6ddLg/seller13",
+    "img": "https://i.ibb.co/WV6ddLg/seller13.png",
     "name": "Chiris Deo",
     "item": 24
   },
