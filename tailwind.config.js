@@ -23,7 +23,8 @@ module.exports = {
       },
       backgroundImage: {
         'bgHero': "url('/src/assets/background/herobg.png')",
-        'easyStepBg': "url('/src/assets/background/easyStemBg.png')"
+        'easyStepBg': "url('/src/assets/background/easyStemBg.png')",
+        'bgNav': "url('/src/assets/background/heroBg2.png')"
 
       }
     },

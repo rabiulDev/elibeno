@@ -6,10 +6,12 @@
     .navItem{
         @apply font-manrope font-semibold text-base text-white hover:text-pink
     }
-    .active{
-        @apply text-pink
-    }
+    
     .footer_social_icon{
         @apply w-[34px] h-[34px] rounded-full border border-white flex items-center justify-center hover:bg-pink hover:border-pink hover:cursor-pointer
     }
+}
+
+.active{
+    @apply text-pink
 }

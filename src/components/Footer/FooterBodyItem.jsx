@@ -1,7 +1,7 @@
 import React from 'react'
 
 const FooterBodyItem = ({ title, items }) => {
-    console.log(items)
+
     return (
         <div>
             <h2 className='font-syne inline-block font-bold text-lg text-white'>{title}</h2>

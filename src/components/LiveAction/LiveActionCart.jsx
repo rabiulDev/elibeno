@@ -1,5 +1,6 @@
 import eth2 from '../../assets/icons/etherium.png'
 import clock from '../../assets/icons/clock.png'
+import hammer from '../../assets/icons/hammer.png'
 
 const LiveActionCart = ({ item }) => {
     return (
@@ -29,7 +30,8 @@ const LiveActionCart = ({ item }) => {
                 </div>
 
                 <div className='text-center mt-4'>
-                    <button className='hover:bg-pink w-[180px] h-9 rounded-lg border border-pink font-semibold text-xs'>Bid Now </button>
+                    <button className='hover:bg-pink w-[180px] h-9 rounded-lg border border-pink font-semibold text-xs'>Bid Now <img className='inline-block ml-2' src={hammer} alt="" /></button>
+
                 </div>
 
             </div>

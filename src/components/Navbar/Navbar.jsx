@@ -8,7 +8,6 @@ const Navbar = () => {
 
     const [menu, setMenu] = useState(false)
     const [navBg, setNavBg] = useState(false)
-    console.log(navBg)
     const changeBackground = () => {
         if (window.scrollY >= 10) {
             setNavBg(true)
@@ -19,17 +18,17 @@ const Navbar = () => {
 
     window.addEventListener('scroll', changeBackground);
     const navItems = [
-        { id: 1, pathName: '#', name: 'Home' },
-        { id: 2, pathName: '#', name: 'Explore', dropDown: true, dropDownItems: ['Item1', 'Item2'] },
-        { id: 3, pathName: '#', name: 'Activity' },
-        { id: 4, pathName: '#', name: 'Ranking' },
-        { id: 5, pathName: '#', name: 'Pages', dropDown: true, dropDownItems: ['Item1', 'Item2'] },
-        { id: 6, pathName: '#', name: 'Contact' }
+        { id: 1, pathName: '/', name: 'Home' },
+        { id: 2, pathName: '/explore', name: 'Explore', dropDown: true, dropDownItems: ['Item1', 'Item2'] },
+        { id: 3, pathName: '/activity', name: 'Activity' },
+        { id: 4, pathName: '/ranking', name: 'Ranking' },
+        { id: 5, pathName: '/pages', name: 'Pages', dropDown: true, dropDownItems: ['Item1', 'Item2'] },
+        { id: 6, pathName: '/contact', name: 'Contact' }
     ]
 
     return (
         <section className='sticky top-0'>
-            <nav className={` ${navBg ? 'bg-lightBlue' : 'bg-transparent'} p-6`}>
+            <nav className={` ${navBg ? 'bg-lightBlue' : 'bg-transparent'} py-6`}>
                 <div className="container mx-auto">
                     <div className="flex items-center justify-between">
 
