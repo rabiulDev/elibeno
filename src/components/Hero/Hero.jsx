@@ -3,7 +3,7 @@ import banner from '../../assets/home/banner.png'
 import uploadIcon from '../../assets/icons/upload2.png'
 const Hero = () => {
     return (
-        <section className='container mx-auto mt-12 lg:mt-[170px] px-4  lg:px-16'>
+        <section className='container mx-auto mt-12 lg:mt-[170px]'>
             <div className='flex items-center justify-between flex-col-reverse lg:flex-row space-y-10 lg:space-y-0'>
 
                 <div className=' max-w-[615px] text-white text-center md:text-left'>

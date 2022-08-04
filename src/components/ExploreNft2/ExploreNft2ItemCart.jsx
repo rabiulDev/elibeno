@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExploreNft2ItemCart = ({ item }) => {
     return (
-        <div>
+        <div className='w-[312px]'>
             <div>
                 <img src={item.img} alt="" />
             </div>

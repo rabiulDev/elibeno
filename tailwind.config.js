@@ -22,7 +22,8 @@ module.exports = {
         'redHatDisplay': ['Red Hat Display', 'sans-serif']
       },
       backgroundImage: {
-        'bgHero': "url('/src/assets/background/herobg.png')"
+        'bgHero': "url('/src/assets/background/herobg.png')",
+        'easyStepBg': "url('/src/assets/background/easyStemBg.png')"
 
       }
     },

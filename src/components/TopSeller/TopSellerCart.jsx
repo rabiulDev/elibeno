@@ -2,7 +2,7 @@ import dimondIcon from '../../assets/icons/dimondIcon.png'
 import dimondFill from '../../assets/icons/dimondFill.png'
 const TopSellerCart = ({ item }) => {
     return (
-        <div className='space-y-4'>
+        <div className='space-y-4 w-[120px]'>
             <div>
                 <img src={item.img} alt="" />
             </div>
