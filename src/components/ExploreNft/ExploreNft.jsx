@@ -10,7 +10,7 @@ const ExploreNft = () => {
             <ExploreNftHeader title={'Explore NFTs'} btnTxt={'Explore More'} />
 
 
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-16'>
+            <div className='grid place-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-16'>
                 {
                     explore.slice(0, 8).map(item => <ExploreCart key={item.id} item={item} />)
                 }
