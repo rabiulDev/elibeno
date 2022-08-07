@@ -6,6 +6,9 @@ import Ranking from "./pages/Ranking/Ranking";
 import Activity from "./pages/Activity/Activity";
 import LiveAuction from "./pages/LiveAuction/LiveAuction";
 import Wallet from "./pages/Wallet/Wallet";
+import Collection from "./pages/Collection/Collection";
+import NotFound from "./pages/NotFound/NotFound";
+import Leaderboard from "./pages/Leaderboard/Leaderboard";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path="/activity" element={<Activity />} />
         <Route path="/explore/liveauction" element={<LiveAuction />} />
         <Route path="/explore/wallet" element={<Wallet />} />
+        <Route path="/pages/collection" element={<Collection />} />
+        <Route path="/pages/leaderboard" element={<Leaderboard />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

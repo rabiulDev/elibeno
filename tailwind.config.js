@@ -19,7 +19,8 @@ module.exports = {
         'manrope': ['Manrope', 'sans-serif'],
         'syne': ['Syne', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
-        'redHatDisplay': ['Red Hat Display', 'sans-serif']
+        'redHatDisplay': ['Red Hat Display', 'sans-serif'],
+        'jost': ['Jost', 'sans-serif']
       },
       backgroundImage: {
         'bgHero': "url('/src/assets/background/herobg.png')",
