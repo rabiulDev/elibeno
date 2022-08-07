@@ -19,10 +19,21 @@ const Navbar = () => {
     window.addEventListener('scroll', changeBackground);
     const navItems = [
         { id: 1, pathName: '/', name: 'Home' },
-        { id: 2, pathName: '/explore', name: 'Explore', dropDown: true, dropDownItems: ['Item1', 'Item2'] },
+        {
+            id: 2, pathName: '/explore', name: 'Explore', dropDown: true, dropDownItems: [
+                { id: 1, pathName: '/explore/liveauction', name: 'Live Auction' },
+                { id: 2, pathName: '/explore/wallet', name: 'Wallet' }
+            ]
+        },
+
         { id: 3, pathName: '/activity', name: 'Activity' },
         { id: 4, pathName: '/ranking', name: 'Ranking' },
-        { id: 5, pathName: '/pages', name: 'Pages', dropDown: true, dropDownItems: ['Item1', 'Item2'] },
+        {
+            id: 5, pathName: '/pages', name: 'Pages', dropDown: true, dropDownItems: [
+                { id: 1, pathName: '/pages/collection', name: 'Collection' },
+                { id: 2, pathName: '/', name: 'Item 2' }
+            ]
+        },
         { id: 6, pathName: '/contact', name: 'Contact' }
     ]
 

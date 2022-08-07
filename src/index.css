@@ -4,7 +4,7 @@
 
 @layer components{
     .navItem{
-        @apply font-manrope font-semibold text-base text-white hover:text-pink
+        @apply font-manrope font-semibold text-base text-white
     }
     
     .footer_social_icon{
@@ -14,4 +14,8 @@
 
 .active{
     @apply text-pink
+}
+
+table tbody tr:nth-child(odd){
+    @apply bg-lightBlue
 }

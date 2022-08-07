@@ -15,8 +15,14 @@ const Explore = () => {
                     }
                 </div>
 
-                <div>
-
+                <div className='max-w-[524px] mx-auto mt-16 h-[51px] flex items-center gap-6 flex-wrap font-manrope font-semibold text-base text-white'>
+                    {/*  PAGINATION  */}
+                    <button className='w-[100px] rounded bg-lightBlue h-full hover:bg-pink'>Prev</button>
+                    <button className='w-[51px] h-full rounded bg-lightBlue hover:bg-pink'>01</button>
+                    <button className='w-[51px] h-full rounded bg-lightBlue hover:bg-pink'>02</button>
+                    <button className='w-[51px] h-full rounded bg-lightBlue hover:bg-pink'>03</button>
+                    <button className='w-[51px] h-full rounded bg-lightBlue hover:bg-pink'>04</button>
+                    <button className='w-[100px] rounded bg-lightBlue h-full hover:bg-pink'>Next</button>
                 </div>
             </div>
         </div>
