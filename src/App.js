@@ -9,6 +9,7 @@ import Wallet from "./pages/Wallet/Wallet";
 import Collection from "./pages/Collection/Collection";
 import NotFound from "./pages/NotFound/NotFound";
 import Leaderboard from "./pages/Leaderboard/Leaderboard";
+import CreateItems from "./pages/CreateItems/CreateItems";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/explore/wallet" element={<Wallet />} />
         <Route path="/pages/collection" element={<Collection />} />
         <Route path="/pages/leaderboard" element={<Leaderboard />} />
+        <Route path="/pages/create-items" element={<CreateItems />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

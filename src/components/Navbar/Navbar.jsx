@@ -31,7 +31,8 @@ const Navbar = () => {
         {
             id: 5, pathName: '/pages', name: 'Pages', dropDown: true, dropDownItems: [
                 { id: 1, pathName: '/pages/collection', name: 'Collection' },
-                { id: 2, pathName: '/pages/leaderboard', name: 'Leaderboard' }
+                { id: 2, pathName: '/pages/leaderboard', name: 'Leaderboard' },
+                { id: 3, pathName: '/pages/create-items', name: 'Create Items' },
             ]
         },
         { id: 6, pathName: '/contact', name: 'Contact' }

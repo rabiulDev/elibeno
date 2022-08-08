@@ -19,3 +19,8 @@
 table tbody tr:nth-child(odd){
     @apply bg-lightBlue
 }
+
+
+.checkBox div label input[type="checkbox"]:checked ~ span{
+        background: rgba(250, 92, 109, 1);
+}
