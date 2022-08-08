@@ -33,6 +33,7 @@ const Navbar = () => {
                 { id: 1, pathName: '/pages/collection', name: 'Collection' },
                 { id: 2, pathName: '/pages/leaderboard', name: 'Leaderboard' },
                 { id: 3, pathName: '/pages/create-items', name: 'Create Items' },
+                { id: 4, pathName: '/pages/item-details', name: 'Item Details' }
             ]
         },
         { id: 6, pathName: '/contact', name: 'Contact' }

@@ -92,7 +92,7 @@ const CreateItems = () => {
                             </div>
 
                             <div>
-                                <input className='bg-lightBlue px-6 py-3 rounded-lg font-manrope font-semibold text-base text-white mt-6 cursor-pointer' type="submit" value='Create Item' />
+                                <input className='bg-lightBlue px-6 py-3 rounded-lg font-manrope font-semibold text-base text-white mt-6 cursor-pointer hover:bg-pink' type="submit" value='Create Item' />
                             </div>
                         </form>
                     </div>

@@ -10,6 +10,7 @@ import Collection from "./pages/Collection/Collection";
 import NotFound from "./pages/NotFound/NotFound";
 import Leaderboard from "./pages/Leaderboard/Leaderboard";
 import CreateItems from "./pages/CreateItems/CreateItems";
+import ItemDetails from "./pages/ItemDetails/ItemDetails";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/pages/collection" element={<Collection />} />
         <Route path="/pages/leaderboard" element={<Leaderboard />} />
         <Route path="/pages/create-items" element={<CreateItems />} />
+        <Route path="/pages/item-details" element={<ItemDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
