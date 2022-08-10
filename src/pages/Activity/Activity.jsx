@@ -17,8 +17,8 @@ const Activity = () => {
             <CommonHeader />
             <div className='container mx-auto py-[120px]'>
 
-                <div className=' flex items-center justify-between gap-[29.93px] flex-wrap'>
-                    <div className='flex items-center flex-wrap gap-[29.93px] font-manrope font-semibold text-base text-[#C1C5E0]'>
+                <div className=' flex items-center md:justify-between gap-[29.93px] flex-wrap'>
+                    <div className='flex items-center justify-center md:justify-between flex-wrap gap-[29.93px] font-manrope font-semibold text-base text-[#C1C5E0]'>
                         <button className='bg-pink py-3 px-6 rounded-lg text-white hover:bg-pink'> <img className='inline-block mr-2' src={grid} alt="" /> All</button>
                         <button className='bg-lightBlue py-3 px-6 rounded-lg hover:bg-pink'> <img className='inline-block mr-2' src={list} alt="" /> Listing</button>
                         <button className='bg-lightBlue py-3 px-6 rounded-lg hover:bg-pink'> <img className='inline-block mr-2' src={follow} alt="" /> Following</button>

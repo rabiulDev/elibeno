@@ -25,7 +25,7 @@ function App() {
         <Route path="/pages/collection" element={<Collection />} />
         <Route path="/pages/leaderboard" element={<Leaderboard />} />
         <Route path="/pages/create-items" element={<CreateItems />} />
-        <Route path="/pages/item-details" element={<ItemDetails />} />
+        <Route path="/explore/item-details/:id" element={<ItemDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
