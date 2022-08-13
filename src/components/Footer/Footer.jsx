@@ -4,7 +4,7 @@ import FooterHeader from "./FooterHeader";
 
 const Footer = () => {
   return (
-    <section className="bg-lightBlue">
+    <section className="bg-lightBlue px-6">
       <div className="container mx-auto py-[120px]">
         {/* FOOTER HEADER */}
         <FooterHeader />
