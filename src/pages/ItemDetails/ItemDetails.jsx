@@ -29,11 +29,11 @@ const ItemDetails = () => {
   return (
     <div>
       <CommonHeader />
-      <div className="container mx-auto py-[120px]">
-        <div className="py-[120px]">
-          <div className="grid gap-y-8 lg:grid-cols-2">
-            <div className="w-[536px]">
-              <div className="w-[536px] h-[395px]">
+      <div className="container mx-auto">
+        <div className="py-10 lg:py-[120px] px-3">
+          <div className="flex gap-6 flex-col lg:flex-row">
+            <div className="w-full md:w-[536px]">
+              <div className="w-full md:w-[536px] h-[300px] md:h-[395px]">
                 <img className="w-full h-full" src={viewImg} alt="" />
               </div>
 
@@ -42,7 +42,7 @@ const ItemDetails = () => {
                   <div
                     onClick={() => setViewImg(item.img)}
                     key={ind}
-                    className="h-[88px] w-[88px] rounded-lg cursor-pointer"
+                    className="h-[48px] md:h-[88px] w-[48px] md:w-[88px] rounded-lg cursor-pointer"
                   >
                     <img className="h-full w-full" src={item.img} alt="" />
                   </div>
@@ -78,21 +78,20 @@ const ItemDetails = () => {
               </div>
 
               <div className="mt-10">
-                <h3 className="font-syne font-bold text-5xl text-white">
+                <h3 className="font-syne font-bold text-2xl lg:text-5xl text-white">
                   {items.name}
                 </h3>
                 <div className="flex items-center justify-between mt-4">
-                  <div className="flex items-center">
+                  <div className="flex flex-col lg:flex-row items-center">
                     <img src={etheriumCircle} alt="" />
-                    <p className="font-manrope font-medium text-2xl text-white flex items-center ml-2">
-                      <span className="font-normal text-base opacity-[0.8] mr-2">
-                        {" "}
-                        Minimum Bid:{" "}
-                      </span>{" "}
+                    <p className="font-manrope font-medium text-lg lg:text-2xl text-white flex items-center lg:ml-2">
+                      <span className="font-normal text-base opacity-[0.8] mr-2 inline">
+                        Minimum Bid:
+                      </span>
                       {items.qty}
                     </p>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex flex-col lg:flex-row items-center">
                     <img src={clock} alt="" />
                     <h3 className="font-manrope font-medium text-base text-white opacity-[0.8] ml-2">
                       24D | 04H | 04M | 04S
@@ -123,7 +122,7 @@ const ItemDetails = () => {
                 </p>
               </div>
 
-              <div className="mt-10 space-x-4">
+              <div className="mt-10 text-center lg:text-left space-y-4 lg:space-y-0 lg:space-x-4">
                 <button className="bg-pink py-2 px-14 rounded-lg font-manrope font-semibold text-xs text-white">
                   Bid Now <img className="inline ml-2" src={hammer} alt="" />
                 </button>
