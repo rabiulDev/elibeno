@@ -14,7 +14,7 @@ import ItemDetails from "./pages/ItemDetails/ItemDetails";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/explore" element={<Explore />} />
@@ -29,7 +29,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

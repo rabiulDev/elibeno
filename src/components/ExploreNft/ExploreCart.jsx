@@ -13,7 +13,7 @@ const ExploreCart = ({ item }) => {
   return (
     <div
       onClick={() => navigateToSingleItem(item.id)}
-      className="p-6 w-[312px] bg-lightBlue rounded-lg cursor-pointer"
+      className="p-6 md:w-[312px] bg-lightBlue rounded-lg cursor-pointer"
     >
       <div className="relative rounded-lg">
         <img className="w-full h-full rounded-lg" src={item.img} alt="" />
@@ -33,7 +33,7 @@ const ExploreCart = ({ item }) => {
             {item.title}
           </h3>
           <button className="py-2 px-4 rounded-lg border border-pink font-semibold text-xs hover:bg-pink">
-            Buy{" "}
+            Buy
             <img
               className="w-3 h-3 inline-block ml-2"
               src={item.icon2}

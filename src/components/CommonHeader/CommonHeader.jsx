@@ -10,9 +10,9 @@ const CommonHeader = () => {
       <div className="container mx-auto relative overflow-x-hidden">
         <Navbar />
 
-        <div className="mt-4 sm:mt-[147px] mb-6 sm:mb-[163px]">
+        <div className="mt-44 sm:mt-[147px] mb-6 sm:mb-[163px]">
           <div className="flex flex-col sm:flex-row items-center sm:justify-between">
-            <h2 className="font-syne font-bold text-4xl sm:text-[4rem] text-white">
+            <h2 className="font-syne font-bold text-4xl md:text-[4rem] text-white">
               {state}
             </h2>
             <p className="font-manrope font-semibold text-sm sm:text-base text-white opacity-[0.8]">

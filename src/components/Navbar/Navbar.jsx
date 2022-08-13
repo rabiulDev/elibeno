@@ -8,7 +8,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [navBg, setNavBg] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= 10) {
+    if (window.scrollY >= 1) {
       setNavBg(true);
     } else {
       setNavBg(false);
@@ -46,10 +46,12 @@ const Navbar = () => {
   ];
 
   return (
-    <section className="sticky top-0">
-      <nav className={` ${navBg ? "bg-lightBlue" : "bg-transparent"} py-6`}>
+    <>
+      <nav
+        className={` ${navBg ? "bg-lightBlue" : "bg-transparent"} py-4 sm:py-6`}
+      >
         <div className="container mx-auto">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between px-4 sm:px-0">
             {/* LOGO */}
             <div>
               <Logo />
@@ -77,7 +79,7 @@ const Navbar = () => {
               {menu ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
+                  className="h-4 w-4 sm:h-6 sm:w-6 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -90,7 +92,7 @@ const Navbar = () => {
                   />
                 </svg>
               ) : (
-                <CgMenu className="w-6 h-6 text-white" />
+                <CgMenu className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
               )}
             </div>
           </div>
@@ -106,13 +108,16 @@ const Navbar = () => {
           ></div>
 
           <div
-            onClick={() => setMenu(false)}
             className={`absolute lg:hidden ${
-              menu ? "right-0" : " -right-[300px]"
-            } top-20 bg-lightBlue p-8 space-y-6 max-w-xs h-[inherit] duration-300 z-30`}
+              menu ? "left-0" : " -left-[300px]"
+            } top-16 bg-lightBlue p-8 space-y-6 max-w-xs h-[inherit] duration-300 z-30`}
           >
             {navItems.map((navItem) => (
-              <NavItem key={navItem.id} navItem={navItem} />
+              <NavItem
+                onClick={() => setMenu(false)}
+                key={navItem.id}
+                navItem={navItem}
+              />
             ))}
             <div className="space-x-2 ">
               <Button btnText="Login" btnType="outline" />
@@ -121,7 +126,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </section>
+    </>
   );
 };
 

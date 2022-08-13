@@ -44,8 +44,7 @@ const ItemDetails = () => {
                     key={ind}
                     className="h-[88px] w-[88px] rounded-lg cursor-pointer"
                   >
-                    {" "}
-                    <img className="h-full w-full" src={item.img} alt="" />{" "}
+                    <img className="h-full w-full" src={item.img} alt="" />
                   </div>
                 ))}
               </div>
